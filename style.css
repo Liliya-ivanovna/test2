@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+li{
+  display:inline-block;
+  width:19%;
+}
+.thumbnails{
+  transition: all .5s ease-in-out;
+  width:100%;
+   opacity: 0.8;
+}
+.view-container{
+  position: relative;
+}
+.full-size{
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.full-size:target{
+  opacity: 1;
+}
+#slide-1{
+  opacity:1;
+}
+.thumbnails:hover{
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px gray;
+  opacity: 1;
+}
